@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+  <persistence-unit name="ASU_POLPU" transaction-type="RESOURCE_LOCAL">
+    <provider>oracle.toplink.essentials.PersistenceProvider</provider>
+    <class>ASU_POL.NewUserAsuTrS</class>
+    <properties>
+      <property name="toplink.jdbc.user" value="db2admin"/>
+      <property name="toplink.jdbc.password" value="11111111"/>
+      <property name="toplink.jdbc.url" value="jdbc:db2:ASU_POL4"/>
+      <property name="toplink.jdbc.driver" value="COM.ibm.db2.jdbc.app.DB2Driver"/>
+    </properties>
+  </persistence-unit>
+</persistence>
